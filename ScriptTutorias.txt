@@ -1,0 +1,3 @@
+SHOW CREATE DATABASE `test`;
+LOAD DATA LOW_PRIORITY LOCAL INFILE 'C:\\Users\\Archivo.csv' INTO TABLE `test`.`teacher` FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES (`nombre`, `cod_departamento`, `titulacion`, `cod_asignatura`, `asignatura`, `grupo`, `tipo`, `inicio`, `fin`, `dia`, `hora_ini`, `hora_fin`);
+SHOW WARNINGS;
