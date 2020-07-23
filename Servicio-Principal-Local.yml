@@ -19,8 +19,8 @@ spring:
     url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=Europe/Madrid
 #     username: upm
 #     password: 12345678
-    username: root
-    password: 1234
+    username: user
+    password: test
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database: MYSQL
